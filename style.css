@@ -7,8 +7,8 @@
 
 .toast {
   position: fixed;
-  top: 0px;
-  right: 30px;
+  top: 0;
+  right: 0;
   margin: auto;
   max-width: 400px;
   padding: 12px;
