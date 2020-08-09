@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sofia pro;
+}
+
+.toast {
+  position: fixed;
+  top: 0px;
+  right: 30px;
+  margin: auto;
+  max-width: 400px;
+  padding: 12px;
+  background: #ccc;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 2px grey;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.title {
+  font-size: 48px;
+  padding-left: 12px;
+}
+.content {
+  font-size: 20px;
+  padding-left: 12px;
+}
+
+.btn {
+  padding: 12px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 12px;
+  margin: 12px 12px;
+  border: none;
+  transition: 0.1s;
+  color: #fff;
+}
+.btn:active {
+  border-bottom: 4px solid rgb(54, 69, 69);
+  transform: scale(1.1);
+  transition: 0.01s;
+}
+.primary {
+  background: dodgerblue;
+}
+.danger {
+  background: #fd4321;
+}
+
+.info {
+  background: rgb(0, 175, 219);
+}
+
+.success {
+  background: #00ff00;
+}
+
+.dark {
+  background: rgb(54, 69, 69);
+}
+
+.special {
+  background: blueviolet;
+}
